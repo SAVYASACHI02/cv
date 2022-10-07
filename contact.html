@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- THIS FORM CAN SEND A MAIL-->
+<body>
+    <h1>CONTACT INFO.</h1>
+    <ol>
+   <li>name->savya</li>
+   <li>moble->56565656</li>
+   <li>mail->savyas02@gmail.com</li>
+   <li>add->mbd</li>
+    </ol>
+    <hr>
+    <form action="mailto:savyas02@gmail.com" method="post" enctype="text/plain"><!--enctype to encode in text in mail mailTO open email-->
+        <label>name:  </label><input type="text" name="yourname"><br>
+        <label>email  </label><input type="email" name="yourmail"><br>
+        <label>password:  </label><input type="password" name="pass"><br>
+        <label >your message</label><textarea name="messagebyyou" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+        <!--THIS FORM SEND A MAIL-->
+    </form>
+</body>
+</html>
